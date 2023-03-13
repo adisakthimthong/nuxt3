@@ -4,6 +4,10 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+onMounted(() => {
+  console.log("🚀 ~ file: index.vue:11 ~ onMounted ~ `hola`:", `hola`);
+});
+</script>
 
 <style lang="scss"></style>
